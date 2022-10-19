@@ -11,6 +11,15 @@
 }
 
 
+main{
+    padding: 4rem 7rem;
+}
+
+.p-relative{
+    position: relative;
+
+}
+
 .flex-centered{
     display: flex;
     justify-content: center;
@@ -51,3 +60,45 @@ section.banner-orange{
     color: white;
     font-size: 2rem;
 }
+
+.container-one{
+    padding-left: 10rem;
+}
+
+
+.card{
+    display: inline-block;
+    padding-left: 3rem;
+}
+
+
+.card-img{
+    height: 500px;
+    width: 370px;
+}
+
+.info-img{
+    font-size: 1.5rem;
+}
+
+.price-eur{
+    color: red;
+}
+
+.discount-price{
+    font-style: ;
+}
+
+.p-absolute{
+    position: absolute;
+}
+
+.discount-imgs{
+    background-color: red;
+    bottom: 0;
+}
+
+.eco{
+    background-color: green;
+}
+
