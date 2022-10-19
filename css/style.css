@@ -20,6 +20,8 @@ main{
 
 }
 
+
+
 .flex-centered{
     display: flex;
     justify-content: center;
@@ -69,7 +71,7 @@ section.banner-orange{
 
 .card{
     display: inline-block;
-    padding-left: 3rem;
+    margin-left: 3rem;
 }
 
 
@@ -98,10 +100,28 @@ section.banner-orange{
 
 .discount-imgs{
     background-color: red;
-    bottom: 0;
+    bottom: 100px;
+    left: 0;
 }
 
 .eco{
     background-color: green;
+    bottom: 100px;
+    left: 50px;
 }
 
+
+.card-img-hov{
+    display: none;
+    height: 500px;
+    width: 370px;
+    z-index: 1;
+}
+
+.card:hover .card-img-hov{
+    display: inline;
+}
+
+.card:hover .card-img{
+    display: none;
+}
