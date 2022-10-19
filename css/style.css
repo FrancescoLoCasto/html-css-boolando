@@ -125,3 +125,12 @@ section.banner-orange{
 .card:hover .card-img{
     display: none;
 }
+
+
+.black-banner-bottom{
+    width: 100%;
+    height: 100px;
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+}
