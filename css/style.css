@@ -1,0 +1,53 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.flex{
+    display: flex;
+}
+
+
+.flex-centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section.banner-orange{
+    height: 70px;
+    width: 100%;
+    background-color: #ff6900;
+}
+
+.header-banner{
+    padding-top: 1rem;
+    justify-content: space-around;
+}
+
+.woman-man-child{
+    height: 30px;
+    color: white;
+    text-align: center;
+
+}
+
+.charachter-banner{
+    padding-left: 30px;
+    font-family: sans-serif;
+}
+
+#logo{
+    width: 200px;
+    height: 40px;
+}
+
+.shop-icon{
+    
+    color: white;
+    font-size: 2rem;
+}
